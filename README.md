@@ -16,7 +16,7 @@ Examples
         @validate({
             'username': [
                 (required_validator),
-                (regex_validator, (r"[a-zA-Z][\w]+"), "invalid username.")],
+                (regex_validator, (r"[a-zA-Z][\w]+", "invalid username."))],
             'password': [(required_validator)]
         })
         def post(self):
