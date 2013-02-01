@@ -15,10 +15,6 @@
 # License for the specific language governing permissions and limitations
 # under the License.
 
-# This is a customed blog different from demo
-
-'''Miscellous tools here.'''
-
 import functools
 
 def validate(field_config):

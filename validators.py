@@ -15,8 +15,6 @@
 # License for the specific language governing permissions and limitations
 # under the License.
 
-# This is a customed blog different from demo
-
 '''Validators used for http request parameter validation.
    Validators are functions that validate request arguments.
    You can follow the instructions below to write your own validator:
