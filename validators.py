@@ -55,4 +55,4 @@ def email_validator(value, message_info='email address form not match'):
     return True if matched else (False, message_info)
 
 def required_validator(value, message_info='missing arguments.'):
-    return True if not value or not value.strip() else (False, message_info)
+    return True if not value.strip() else (False, message_info)
